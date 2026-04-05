@@ -1,0 +1,11 @@
+function saludar() {
+  console.log("Hola");
+}
+
+const saludar = () => {
+  console.log("Hola");
+};
+
+function nombre() {}   
+=   
+const nombre = () => {}
