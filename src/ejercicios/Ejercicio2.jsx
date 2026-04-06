@@ -1,4 +1,3 @@
-// src/ejercicios/Ejercicio2.jsx
 export function InformacionPagina() {
   return (
     <>

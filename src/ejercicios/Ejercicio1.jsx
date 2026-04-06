@@ -1,4 +1,3 @@
-// src/ejercicios/Ejercicio1.jsx
 export function MyButton() {
   return (
     <button>
