@@ -2,30 +2,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Navbar } from "./layouts/Navbar";
 import { Ejercicios } from "./pages/Ejercicios";
-import { TresEnLinea } from "./pages/TresEnLinea";
+import { Game } from "./pages/TresEnLinea";
 
 export default function MyApp() {
   return (
     <>
-    <BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
 
-      <Navbar />
+        <Routes>
+          <Route path="/" element={<Ejercicios />} />
 
-      <Routes>
-
-        <Route
-          path="/"
-          element={<Ejercicios />}
-        />
-
-        <Route
-          path="/tres-en-linea"
-          element={<TresEnLinea />}
-        />
-
-      </Routes>
-
-    </BrowserRouter>
+          <Route path="/tres-en-linea" element={<Game />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
