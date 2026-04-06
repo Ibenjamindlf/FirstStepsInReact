@@ -2,8 +2,6 @@
 Repositorio dedicado para desarrollar los primeros pasos en react.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-
 
 # React + Vite
 
